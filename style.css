@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    background-color: white;
+    width: 150px;
+    height: 110px;
+    color: red;
+    border: 7px red groove;
+    font-size: 25px;
+    transition: all 2s;
+}
+button:hover{
+    cursor: pointer;
+     background-color: gold;
+     color: blue;
+    border-color: rgb(0, 4, 255);
+    box-shadow: 6px 6px 11px black;
+    border-style: groove;
+}
+
+.cuadrado{
+      width: 100px;
+      height: 100px;
+      background-color: rgb(166, 15, 15);
+      border: 5px double black;
+}
+
+.contenedor{
+    display: flex;
+    gap: 10px;
+    background-color: yellowgreen;
+    flex-wrap: wrap;
+}
+
